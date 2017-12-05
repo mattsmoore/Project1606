@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Welcome to SuperTours!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="myStyles.css">
+  </head>
+
+  <body oncontextmenu="javascript:alert('Right Click Disabled');return false;">
+
+
+  <div id="top">
+    <header>
+      <a href="index.html" target="top"><img id="Logo1" src="images/logo.png" alt="Logo"></a>
+      <h1>uperTours</h1>
+    </header>
+
+    <nav>
+      <div id="link">
+        <a id="Llink" class="navi" href="about.html" target="top">About</a>
+        <a class="navi" href="destinations.html" target="top">Destinations</a>
+        <a id="Rlink" class="navi" href="contact.html" target="top">Contact</a>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+  <section  id="main">
+      <h2 id="ac">Amazing Tours!</h2>
+      <h3 id="msg"> We provide quality tours and activities throughout many countries!</h3>
+
+      <div id="mainImg">
+        <img class="slide" src="Images/glide.png">
+        <img class="slide" src="Images/cave.jpg">
+        <img class="slide" src="Images/scuba.jpg">
+        <img class="slide" src="Images/atv.jpg">
+        <button class="left" onclick="changeSlide(-1)">&#9668;</button>
+        <button class="right" onclick="changeSlide(+1)">&#9658;</button>
+      </div>
+      <script type="text/javascript" src="myScripts.js"></script>
+      <br>
+
+      <div id="below">
+        <article id="LBOT">
+          <h3>Discover</h3>
+          <p>With SuperTours you can discover many wonders of the world. We work with top quality staff to provide you with the best experience possible. Out teams make sure that safety is the #1 priority with all of our tours. We know you want to make the best of of your trip and that is why why aim to make that possible. So wether you're riding on an ATV through the desert, or scuba diving through acienct ruins, SuperTours will be there to help.</p>
+        </article>
+        <article id="linkz">
+          <h3 id="Lh">Links</h3>
+          <ul>
+            <li><a href="" target="top">About Us!</a></li>
+            <li><a href="" target="top">Destinations!</a></li>
+            <li><a href="" target="top">Contact Us!</a></li>
+        </article>
+        <article id="RBOT">
+          <h3>Whats new?</h3>
+          <ul>
+            <li>NEW! Ride and ATV through the desert!</li>
+            <li>NEW! Scuba dive with sharks in Mexico!</li>
+            <li>NEW! Hang glide over the mountains of Venuzuela</li>
+            <li>NEW! Ride into a cave on a boat in Cuba!</li>
+            <li>NEW! Zipline in Cambodia</li>
+            <li>NEW! Helicopter ride in Canada</li>
+          </article>
+        </div>
+    </section>
+
+
+      <footer>
+        <img id="Logo2" src="images/logo.png" alt="Logo">
+        <p id="foot" >&copy;2017 SuperTours Co.&nbsp;&nbsp;Website designed by: Matthew Moore</p>
+      </footer>
+
+
+  </body>
+</html>
