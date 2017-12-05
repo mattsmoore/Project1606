@@ -1,0 +1,299 @@
+/* Font for page is Arial */
+
+*{
+  font-family: Arial;
+}
+
+/* Styles for index.html */
+
+#ac{
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.slide{
+  width: 700px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+}
+
+#mainImg {
+  display: block;
+  text-align: center;
+}
+
+#main{
+  border: 2px solid black;
+}
+
+#Logo2 {
+  width: 75px;
+  height: 75px;
+  float: left;
+  display: block;
+}
+
+#msg {
+  text-align: center;
+}
+
+#below{
+  height: 250px;
+  overflow: auto;
+}
+
+#LBOT {
+  padding-left: 10px;
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+#RBOT {
+  text-align: right;
+  width: 33%;
+  display: block;
+  float:left;
+}
+
+#linkz {
+  text-align: center;
+  width: 32%;
+  display: block;
+  float: left;
+}
+
+#lh {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.slide {
+  max-width: 100%;
+  height: auto;
+}
+
+#foot {
+  font-size: 10px;
+}
+
+/* CSS for About page */
+
+
+#AU {
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#hq {
+  width: 300px;
+  height: 450px;
+  padding-left: 200px;
+}
+
+#safe {
+  width: 300px;
+  height: 450px;
+  padding-right: 200px;
+}
+
+#LeftAbout {
+  padding-top: 20px;
+  float: left;
+  width: 50%;
+}
+
+#rightAbout {
+  padding-top: 20px;
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+
+#pL{
+  width: 30%;
+  padding-left: 200px;
+  float: left;
+  overflow: auto;
+}
+
+#pR{
+  width: 30%;
+  padding-right: 150px;
+  float: right;
+  overflow: auto;
+}
+
+#LAtitle {
+  padding-left: 187px;
+  float: left;
+  overflow: auto;
+}
+
+#SafeTitle {
+  float: left;
+  padding-left: 420px;
+  overflow:
+}
+
+#mainAbout {
+  border: 1px solid black;
+}
+
+#ft1 {
+    width: 99.75%;
+    height: 75px;
+    border-top: 1px solid black;
+    background-color: #478DFF;
+    color: #ffe857;
+    overflow: auto;
+}
+
+.abt {
+  max-width: 100%;
+  height: auto;
+  clear: right;
+}
+
+@media screen and (max-width: 900px) {
+  #hq {
+    display: none;
+  }
+  #pR{
+    width: 50%;
+    text-align: center;
+  }
+  #safe {
+    display: none;
+  }
+  #pL{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+  #LAtitle {
+    display: none;
+  }
+  #SafeTitle {
+    display: none;
+  }
+}
+
+/* CSS for Destinations page */
+
+.leff {
+  float: left;
+}
+
+.rii {
+  float: right;
+}
+
+.desti {
+  display: inline;
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+}
+
+#main4 {
+  border: 1px solid black;
+}
+
+/* CSS for Contact page */
+
+#cont {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#buto {
+  display: block;
+  margin: 0 auto;
+}
+
+/* CSS for footers and headers */
+
+#Logo1 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: block;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  height: 30px;
+  background-color: Black;
+}
+
+h1{
+  position: absolute;
+  text-shadow:
+-1px -1px 0 #283c82,
+1px -1px 0  #283c82,
+-1px 1px 0 #283c82,
+1px 1px 0 #283c82;
+  color: #ffe857;
+  display: block;
+  margin: 0;
+  height: 50px;
+  font-size: 80px;
+  display: inline;
+}
+
+header{
+  background-color: #478DFF;
+  height:110px;
+  width: 100%;
+}
+
+.navi{
+  text-decoration: none;
+  color:white;
+}
+
+#Llink{
+  padding-left: 20px;
+  float:left;
+}
+
+#Rlink{
+  padding-right: 25px;
+  float:right;
+}
+
+#link{
+  padding-top: 5px;
+  text-align: center;
+}
+
+#top{
+  border: 2px solid black;
+}
+
+footer {
+  width: 99.75%;
+  height: 75px;
+  border: 2px solid black;
+  background-color: #478DFF;
+  color: #ffe857;
+  overflow: auto;
+}
+
+#foot {
+  float: right;
+  padding-right: 20px;
+}
