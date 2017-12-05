@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="myStyles.css">
+
+  </head>
+
+  <body oncontextmenu="javascript:alert('Right Click Disabled');return false;">
+
+    <div id="top">
+      <header>
+        <a href="index.html" target="top"><img id="Logo1" src="images/logo.png" alt="Logo"></a>
+        <h1>uperTours</h1>
+      </header>
+
+      <nav>
+        <div id="link">
+          <a id="Llink" class="navi" href="index.html" target="top">Home</a>
+          <a class="navi" href="destinations.html" target="top">Destinations</a>
+          <a id="Rlink" class="navi" href="about.html" target="top">About</a>
+        </div>
+      </nav>
+    </div>
+
+    <section id="mainAbout">
+
+    <div id="cont">
+      <form id="form" action="/myPHP.php" method="post">
+        Full Name:<br>
+          <input type="text" name="names" required>
+          <br>
+          Phone Number:<br>
+          <input type="tel" name="tele" required>
+          <br>
+          Email:<br>
+          <input type="email" name="email" required>
+          <br>
+          Message:<br>
+          <textarea name="body"></textarea>
+            <br>
+       </form>
+       <button onclick="alertMe()" id="buto" type="submit" form="form" value="Submit">Submit</button>
+       <br>
+       <h3>How to Contact Us?</h3>
+       <p>Phone: 1-800-XXX-YYYY
+          <br>
+          Email: SuperTours@emailmail.com
+          <br>
+          We are availible for 24/7 Support. Just call or email us!
+      </p>
+    </div>
+
+
+
+    <footer id="ft1">
+      <img id="Logo2" src="images/logo.png" alt="Logo">
+      <p id="foot" >&copy;2017 SuperTours Co.&nbsp;&nbsp;Website designed by: Matthew Moore</p>
+    </footer>
+
+    </section>
+
+
+
+  </body>
+</html>
